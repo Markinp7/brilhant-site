@@ -1,0 +1,68 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    padding-bottom: 80px;
+}
+
+header {
+    text-align: center;
+    padding: 30px 10px;
+}
+
+.logo {
+    width: 120px;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #ff0000;
+}
+
+.servicos, .orcamento, .agenda {
+    padding: 20px;
+    background: #1a1a1a;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+button {
+    background: #ff0000;
+    border: none;
+    padding: 6px 14px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+button:hover {
+    background: #d10000;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 6px;
+}
+
+.btn-whats {
+    width: 100%;
+    background: #25D366;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.btn-whats:hover {
+    background: #1da851;
+}
