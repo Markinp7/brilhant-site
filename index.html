@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brilhant Estética Automotiva - Agendamentos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <img src="https://i.imgur.com/VU4tHqC.png" class="logo">
+    <h1>Brilhant Estética Automotiva</h1>
+    <p>Ipaussu - SP</p>
+</header>
+
+<section class="servicos">
+    <h2>Serviços & Valores</h2>
+
+    <div class="item">
+        <span>Lavagem Simples</span>
+        <strong>R$ 35,00</strong>
+        <button onclick="addService('Lavagem Simples', 35)">Adicionar</button>
+    </div>
+
+    <div class="item">
+        <span>Lavagem Premium</span>
+        <strong>R$ 60,00</strong>
+        <button onclick="addService('Lavagem Premium', 60)">Adicionar</button>
+    </div>
+
+    <div class="item">
+        <span>Higienização Interna</span>
+        <strong>R$ 300,00</strong>
+        <button onclick="addService('Higienização Interna', 300)">Adicionar</button>
+    </div>
+
+    <div class="item">
+        <span>Polimento de Farol</span>
+        <strong>R$ 90,00</strong>
+        <button onclick="addService('Polimento de Farol', 90)">Adicionar</button>
+    </div>
+
+</section>
+
+<section class="orcamento">
+    <h2>Seu Orçamento</h2>
+    <ul id="lista"></ul>
+    <h3>Total: R$ <span id="total">0</span>,00</h3>
+    <button class="btn-whats" onclick="sendWhats()">Enviar no WhatsApp</button>
+</section>
+
+<section class="agenda">
+    <h2>Agendar Horário</h2>
+
+    <input type="text" id="nome" placeholder="Seu nome">
+    <input type="text" id="carro" placeholder="Modelo do carro">
+    <input type="date" id="data">
+    <input type="time" id="hora">
+
+    <button class="btn-whats" onclick="sendWhatsAgendamento()">Agendar pelo WhatsApp</button>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
